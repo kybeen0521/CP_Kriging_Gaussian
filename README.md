@@ -6,6 +6,7 @@ Gaussian Variogram Modeling
 1D Ordinary Kriging with Adjustable Noise
 
 The workflow integrates hydraulic efficiency computation with spatial statistics (kriging) to generate smooth, reliable efficiency curves from experimental pump test data.
+
 ---
 
 ## ✨ Features
