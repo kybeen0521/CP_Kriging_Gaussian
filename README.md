@@ -1,6 +1,7 @@
-#Pump Efficiency Analysis with B-spline + Gaussian Kriging
+Pump Efficiency Analysis with B-spline + Gaussian Kriging
 
-##📌 Overview
+
+📌 Overview
 
 This project analyzes pump efficiency data using:
 
