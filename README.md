@@ -1,14 +1,8 @@
-Pump Efficiency Analysis with B-spline + Gaussian Kriging
-
-
-📌 Overview
-
+# Pump Efficiency Analysis with B-spline + Gaussian Kriging
+## 📌 Overview
 This project analyzes pump efficiency data using:
-
 Natural Cubic Spline Interpolation (direct implementation, no SciPy)
-
 Gaussian Variogram Modeling
-
 1D Ordinary Kriging with Adjustable Noise
 
 The workflow integrates hydraulic efficiency computation with spatial statistics (kriging) to generate smooth, reliable efficiency curves from experimental pump test data.
