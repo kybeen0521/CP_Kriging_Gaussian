@@ -58,20 +58,38 @@ pump_kriging.py
 
 ## 📊 Variogram Parameters
 
-Nugget (γ(0)) → measurement noise / micro-scale variation.
-Sill → variance plateau (long-range variability).
-Range → effective distance of spatial correlation.
+- Nugget (γ(0)) → measurement noise / micro-scale variation.
+- Sill → variance plateau (long-range variability).
+- Range → effective distance of spatial correlation.
+
 
 These parameters are automatically extracted from experimental variogram in the code.
 
-🧩 Example Output
+---
+Dependencies:
 
-Red dots → Original pump efficiency test data.
+- numpy
+- matplotlib
 
-Spline curve → Smooth reference (Cubic Spline).
+(No SciPy required)
 
-Colored curves → Kriging predictions with different sampling resolutions (10, 15, 25, 30 pts).
+---
 
-BEP (Best Efficiency Point) marked with red circle and label.
+## 📖 Key Insights
 
-Logs provide estimated variogram parameters and performance metrics for each kriging run:
+- Kriging is applied to efficiency vs flow rate curve, treating flow rate as spatial coordinate.
+- White noise ensures stable inversion of covariance matrix.
+- Variogram is the conceptual bridge: extracted from data (experimental) → used in kriging (model covariance).
+- Combined spline + kriging workflow allows smooth and statistically consistent efficiency prediction.
+
+
+---
+
+
+## 👤 Author
+**Yongbeen Kim (김용빈)**  
+Researcher, Intelligent Mechatronics Research Center, KETI
+Email address: ybin521@keti.re.kr
+
+
+📅 Document last updated 2025.10.01
