@@ -66,16 +66,15 @@ pump_kriging.py
 - Sill → variance plateau (long-range variability).
 - Range → effective distance of spatial correlation.
 
-
-These parameters are automatically extracted from experimental variogram in the code.
-
----
 Dependencies:
 
 - numpy
 - matplotlib
-
 (No SciPy required)
+
+
+These parameters are automatically extracted from experimental variogram in the code.
+
 
 ---
 
