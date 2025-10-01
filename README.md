@@ -56,6 +56,10 @@ pump_kriging.py
 5) Model Evaluation
 - Computes RMSE and R² between spline ground truth and kriging predictions.
 
+
+---
+
+
 ## 📊 Variogram Parameters
 
 - Nugget (γ(0)) → measurement noise / micro-scale variation.
