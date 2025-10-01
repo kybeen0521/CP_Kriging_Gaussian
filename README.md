@@ -23,13 +23,21 @@ The workflow integrates hydraulic efficiency computation with spatial statistics
 ```
 pump_kriging.py
 ├── Constants               # Physical constants & noise parameter
+│
 ├── Input Data              # Pump test data (pressure, flow, torque, etc.)
+│
 ├── compute_efficiency()    # Pump efficiency calculation
+│
 ├── cubic_spline_interpolation() # Natural cubic spline
+│
 ├── gaussian_variogram()    # Gaussian variogram model
+│
 ├── ordinary_kriging_1d()   # 1D Ordinary Kriging solver
+│
 ├── semivariogram()         # Experimental variogram computation
+│
 ├── compute_rmse(), compute_r2() # Evaluation metrics
+│
 └── Main Execution          # Workflow: efficiency → variogram → kriging → plot
 ```
 ---
