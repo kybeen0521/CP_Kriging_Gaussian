@@ -38,7 +38,7 @@ pump_kriging.py
 │
 ├── semivariogram()         # Experimental variogram computation
 │
-├── compute_rmse(), compute_r2() # Evaluation metrics
+├── compute_rmse(), compute_r^2() # Evaluation metrics
 │
 └── Main Execution          # Workflow: efficiency → variogram → kriging → plot
 ```
