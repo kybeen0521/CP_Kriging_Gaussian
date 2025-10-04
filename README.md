@@ -1,7 +1,7 @@
 # Pump Efficiency Analysis with cubic spline + Gaussian Kriging
 ## 📌 Overview
 This project analyzes pump efficiency data using:
-Natural Cubic Spline Interpolation (direct implementation, no SciPy)
+Cubic Spline Interpolation (direct implementation, no SciPy)
 Gaussian Variogram Modeling
 1D Ordinary Kriging with Adjustable Noise
 
