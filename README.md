@@ -10,7 +10,7 @@ The workflow integrates hydraulic efficiency computation with spatial statistics
 ---
 
 ## ✨ Features
-- Direct computation of pump efficiency and Best Efficiency Point (BEP).
+- Direct computation of pump efficiency and Best Efficiency Point.
 - Cubic Spline interpolation implemented manually.
 - Experimental variogram estimation from data.
 - Gaussian variogram fitting with nugget, sill, and range extraction.
