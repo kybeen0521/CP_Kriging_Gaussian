@@ -3,7 +3,7 @@
 This project analyzes pump efficiency data using:
 Cubic Spline Interpolation (direct implementation)
 Gaussian Variogram Model 
-1D Ordinary Kriging with adjustable Noise
+1D Ordinary Kriging with adjustable noise
 
 The workflow integrates hydraulic efficiency computation with spatial statistics (kriging) to generate smooth, reliable efficiency curves from experimental pump test data.
 
