@@ -91,7 +91,7 @@ These parameters are automatically extracted from experimental variogram in the 
 
 - Kriging is applied to efficiency vs flow rate curve, treating flow rate as spatial coordinate.
 - White noise ensures stable inversion of covariance matrix.
-- Variogram is the conceptual bridge: extracted from data (experimental) → used in kriging (model covariance).
+- Variogram is the conceptual bridge: extracted from data → used in kriging (model covariance).
 - Combined spline + kriging workflow allows smooth and statistically consistent efficiency prediction.
 
 
