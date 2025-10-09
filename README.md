@@ -99,7 +99,7 @@ These parameters are automatically extracted from experimental variogram in the 
 
 
 ## 👤 Author
-**Yongbeen Kim (김용빈)**  
+**Yongbeen Kim**  
 Researcher, Intelligent Mechatronics Research Center, KETI
 Email address: ybin521@keti.re.kr
 
